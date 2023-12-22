@@ -1,15 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import LearnTypography from "./components/learn/Mui"
 function App() {
   return (
     <div className="App">
-      <h1>Material ui with ts</h1>
-      <BrowserRouter>
-      <Routes>
-       
-      </Routes>
-      </BrowserRouter>
-
+      Hello World
+      <LearnTypography />
     </div>
   );
 }
